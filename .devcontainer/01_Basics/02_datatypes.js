@@ -1,5 +1,5 @@
 "use strict";  /* Treat all code as a new java script version*/
-alert (3+3)    //we are using node js not browser
+//alert (3+3)    //we are using node js not browser
 console.log(3+3);
 console.log("Hitesh");
 
