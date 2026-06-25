@@ -23,13 +23,20 @@ const Juser = {
             //   console.log(Juser);
                             
             //   Juser.Email = "hitesh@chatgpt.com"
-            //Object.freeze(Juser)
+            //   Object.freeze(Juser)
             //   Juser.Email = "Hitesh@microsoft.com"
             //   console.log(Juser);
               
               Juser.greeting = function()
               {
-                console.log("hello js user");
+                console.log("Hello js user");
               }
-              console.log(Juser.greeting);
+
+              Juser.greeting2 = function()
+              {
+                console.log(`Hello js user, ${this.name}`);
+              }
+              
+              console.log(Juser.greeting());
+              console.log(Juser.greeting2());
               
