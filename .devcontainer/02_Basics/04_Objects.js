@@ -23,10 +23,10 @@ TinderUser.isLoggedIn = false
 // // }
 // console.log(regular_user.fullname.userfullname);
 
-// //-----------this is singletone object----------//
+//-----------this is singletone object----------//
 // const Aribnb = new Object() 
 
-// //-----------this is non singletone object-------//
+//-----------this is non singletone object-------//
 // const Aribnb = {}
 // Aribnb.id = "101" 
 // Aribnb.name ="Rujvelt"
@@ -58,28 +58,54 @@ TinderUser.isLoggedIn = false
 // const obj3 = {...obj1,...obj2,...obj4}
 // console.log(obj3);
 
-const users =
+// const users =
+// [
+//     {
+//         id:1,
+//         email:"rujju@google.com"
+//     },
+//     {
+//         id:2,
+//         email:"rujju@oracle.com"
+//     },
+//     {
+//         id:3,
+//         email:"rujju@chatgpt.com"
+//     },
+//     {
+//         id:4,
+//         email:"rujju@microsoft.com"
+//     }
+// ]
+// users[1].email
+// console.log(TinderUser);
+// console.log(Object.keys(TinderUser));
+// console.log(Object.values(TinderUser));
+// console.log(Object.entries(TinderUser));
+// console.log(TinderUser.hasOwnProperty(`isLoggedIn:`));
+
+
+
+const course = 
+{
+    coursename : "js in hindi",
+    price : 999,
+    courseinstructor :"Hitesh"
+}
+// console.log(course.courseinstructor);
+const {courseinstructor :instructor}= course
+// console.log(courseinstructor) = course;
+console.log(instructor);
+
+
+// {
+//     "name":"hitesh",
+//     "coursename":"js in hindi",
+//     "price": "free"
+// }
+
 [
-    {
-        id:1,
-        email:"rujju@google.com"
-    },
-    {
-        id:2,
-        email:"rujju@oracle.com"
-    },
-    {
-        id:3,
-        email:"rujju@chatgpt.com"
-    },
-    {
-        id:4,
-        email:"rujju@microsoft.com"
-    }
+    {},
+    {},
+    {}
 ]
-users[1].email
-console.log(TinderUser);
-console.log(Object.keys(TinderUser));
-console.log(Object.values(TinderUser));
-console.log(Object.entries(TinderUser));
-console.log(TinderUser.hasOwnProperty(`isLoggedIn:`));
